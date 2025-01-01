@@ -1,0 +1,17 @@
+# config file version
+apiVersion: 1
+
+deleteDatasources:
+  - name: Prometheus
+    orgId: 1
+
+datasources:
+  - name: Prometheus
+    type: prometheus
+    access: proxy
+    orgId: 1
+    url: https://orange-space-memory-6wq9j9j9qx9255x6-9090.app.github.dev
+    basicAuth: false
+    isDefault: true
+    version: 1
+    editable: true
